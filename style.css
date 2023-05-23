@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+/* }
+body{
+    background-color: #f8c7c7;
+    background: linear-gradient(
+        to right,
+        rgb(213, 224, 226) 0%,
+        rgb(240, 221, 221) 50%,
+        rgb(187, 180, 177) 50%,
+        rgb(243, 235, 235) 100%
+    ); */
+}
+.About-container{
+    background-color: #f8c7c7;
+    background: linear-gradient(
+        to right,
+        rgb(213, 224, 226) 0%,
+        rgb(240, 221, 221) 50%,
+        rgb(187, 180, 177) 50%,
+        rgb(243, 235, 235) 100%
+    );
+}
+
+.hero{
+    
+    position: relative;
+    width: 100%;
+    max-height: 900px;
+    background: rgb(255, 254, 254);
+
+}
+nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    justify-content: space-between;
+    
+}
+nav, ul, li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    text-align: end;
+
+    
+}
+.skills{
+    margin-top: 20%;
+}
+nav, ul, li, a{
+
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    
+}
+nav, ul, li, a:hover{
+    color: red;
+    
+}
+.detel{
+    margin-left: 8%;
+    margin-top: 13%;
+    
+}
+.detel h1{
+    font-size: 50px;
+    color: rgb(77, 68, 68);
+    margin-bottom: 20px;
+}
+span{
+    color: orange;
+}
+.detel p{
+    color: #555;
+    line-height: 22px;
+
+}
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.image{
+    width: 35%;
+    height: 900;
+    position: absolute;
+    bottom: 0;
+    right: 110px;
+    background-color: #000;
+}
+.images img{
+    width: 430px;
+height: 80%;
+position: absolute;
+left: 50%;
+bottom: 0;
+transform: translateX(-40%);
+transition:bottom is, left is;
+border-radius: 610px;
+margin-bottom: -0px;
+margin-left: 18%;
+
+
+}
+.images:hover .shape{
+    bottom: 40px;
+}
+ .images:hover .girl{
+    left: 45%;
+ }
+ button button a{
+/* margin-top: -40PX;
+margin-left: 126px;
+margin: 6px 90px 10px 100px; */
+
+padding-right: 1px;
+border-radius: 20px;
+margin: 10px 0px;
+margin-right:80px 80px 80px;
+
+
+ }
+
+#becky,img{
+    width: 59%;
+    height: 70%;
+    border-radius: 280px;
+    margin-top: -0px;
+    margin-left: 50px;
+    
+}
+.becky1 {
+    margin: 5px;
+    margin-left: 02%;
+    margin-top: -5%;
+    margin-top: 30px;
+}
+
+.move,img{
+    width: 55%;
+    height: 80%;
+    border-radius: 280px;
+    margin-top: 140px;
+    margin-left: 70px;
+
+ }
+
+.move{
+    margin: 50px 50px;
+    margin-left: 80%;
+    margin-top: -44%;
+    
+}
+.reb{
+
+}
+.move  .text{
+    color: rgb(93, 106, 117);
+    margin-top: -35%;
+    color: #000;
+    
+    
+}
+.text{
+    
+}
+   a{
+        background: #212121;
+        padding: 10px 23px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #fff;
+        margin-top: -5%;
+        
+        margin: 30px 0;
+        border-radius: 5px;
+    }
+    .move span{
+        margin-top: -20%;
+    }
+    .move .text{
+    margin-top: 10px;
+    margin-top: -30px;
+    }
+
+    .reb{
+       margin-top: 50%;
+       font-size: 31px;
+       
+     }
+     .codeimg{
+        width: 40%;
+        display: flex;
+        box-shadow: 10px;
+     }
+     #imgc{
+
+     }
+     #imgd{
+        width: 230px;
+        border-style: solid;
+        border-width: 6px;
+        border-radius: 5%;
+
+     }
+     #imge{
+      width: 390px;
+      margin-bottom: 10px;
+     }
+     .twit, .link,.face{
+        margin: 20px;
+        margin-left: 120px;
+        margin-top: -0px;
+     }
+     #twitter a href{
+        margin-left: 90px;
+        margin-top: -20%;
+     }
+     
+    /* div 
+    .About-container #about{
+margin-top: 10%;
+    } */

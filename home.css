@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.move,img{
+    width: 65%;
+    height: 80%;
+    border-radius: 280px;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.becky{
+    margin: 50px;
+    margin-left: 58%;
+    margin-top: -25%;
+}
+
