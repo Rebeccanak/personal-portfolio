@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 
 }
 .About-container{
@@ -225,22 +225,22 @@ margin-right:80px 80px 80px;
      .about-me {
         background-color: #c4b7b7;
         overflow: hidden;
-        /*width: 100%;*/
+      
       }
-        /*border: 0.5em solid;*/
+       
       .about-me >div{
-        /*box-sizing: border-box;*/
+      
       }
       .about-me .image {
         float: left;
         width: 30% ;
-        /*height: 600px;*/
+       
       
       }
       
       .about-me .image img {
         width: 100%;
-        /*height: 100%;*/
+   
       }
 
       /* End About Me */
@@ -254,14 +254,7 @@ margin-right:80px 80px 80px;
 }
 
 .about-me > div {
-  /* Remove box-sizing */
 }
-/* 
-.about-me .image {
-  float: left;
-  width: 30%;
-} */
-
 .about-me .image img {
   width: 100%;
 }
@@ -334,6 +327,8 @@ margin-right:80px 80px 80px;
 
  .design{
   display: flex;
+  margin-left: 150px;
+  margin: 10px;
  }
  .design img{
   width: 20%;
@@ -452,14 +447,15 @@ margin-right:80px 80px 80px;
 /*Start Fototer*/
 .footer {
   background-color: #191e22;
-  color: #6A6E71;
-  padding: 20px 0 40px 0;
+  color: #101315;
+  padding: 15px 0 30px 0;
   text-align: center;
   overflow: hidden;
+  width: 100px;
 }
 .footer .footer-folat{
   float: left;
-  width: 50%;
+  width: 30%;
   text-align: center;
 }
 .footer ul{
@@ -584,7 +580,15 @@ margin-right:80px 80px 80px;
 hr{
   color: blue;
 }
-#mockup img{
-  width: 500px;
+#mockup {
+  width: 240px;
+
+}
+.icons{
+  margin-left: 35px;
+ 
+}
+#mock{
+  width: 320px;
 }
 
